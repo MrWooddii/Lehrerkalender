@@ -1,0 +1,5 @@
+liquibase update:
+    run all not run changelogs
+
+liquibase drop-all:
+    deletes the developer database so you can edit one changeset multiple times
